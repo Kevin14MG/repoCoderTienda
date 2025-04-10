@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "nombre": "Grand Theft Auto V",
+      "precio": 10000,
+      "img": "/assets/img/GrandTheftAutoV.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Red Dead Redemption",
+      "precio": 5000,
+      "img": "/assets/img/RedDeadRedemption.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Grand Theft Auto VI",
+      "precio": 99999,
+      "img": "/assets/img/GrandTheftAutoVI.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "FIFA 2025",
+      "precio": 20000,
+      "img": "/assets/img/fc25.jpg"
+    }
+  ]
+  
