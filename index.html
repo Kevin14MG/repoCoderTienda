@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda Online</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <header>
+    <h1>Mi Tienda Online</h1>
+    <button id="verCarrito">🛒 Ver Carrito</button>
+  </header>
+
+  <main id="contenedor-productos">
+    <!-- Los productos se cargan desde JS -->
+  </main>
+
+  <div id="carrito" class="oculto">
+    <h2>Carrito</h2>
+    <div id="carrito-contenido"></div>
+    <p>Total: $<span id="total"></span></p>
+    <button id="vaciarCarrito">Vaciar carrito</button>
+    <button id="finalizarCompra">Finalizar compra</button>
+  </div>
+
+  <script src="JS/main.js"></script>
+</body>
+</html>

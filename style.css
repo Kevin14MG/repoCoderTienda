@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  #contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 5px;
+  }
+  .producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+  }
+  #carrito.oculto {
+    display: none;
+  }
+  
